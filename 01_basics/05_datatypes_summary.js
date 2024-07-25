@@ -36,3 +36,32 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+// *******************************************************************
+
+// Stack(Primative) - Copy and Heap (Non Primative) - Reference
+
+let MyYTName = "shubham.com"
+
+let anotherName = MyYTName
+
+anotherName = "js"
+
+console.log(MyYTName);
+console.log(anotherName);
+
+
+let userone = {
+    email : "shubhamnv2@gmail.com",
+    upi_Id : "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "shubham@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
