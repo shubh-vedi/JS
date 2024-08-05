@@ -49,12 +49,33 @@ const users = [
 
 users[1].email
 
-console.log(Tinderuser);
+// console.log(Tinderuser);
 
-console.log(Object.keys(Tinderuser));
-console.log(Object.values(Tinderuser));
-console.log(Object.entries(Tinderuser));
-console.log(Tinderuser.hasOwnProperty("isLoggedIn"));
+// console.log(Object.keys(Tinderuser));
+// console.log(Object.values(Tinderuser));
+// console.log(Object.entries(Tinderuser));
+// console.log(Tinderuser.hasOwnProperty("isLoggedIn"));
 
 
 
+// object de-struture 
+
+const course = {
+    courseName:"Js Hinid",
+    price:"999",
+    courseInstrutor:"HiteshC"
+
+}
+
+// course.courseInstrutor()
+
+const {courseInstrutor : instrutor} = course
+
+console.log(instrutor);
+
+
+// {
+//     "courseName":"Js Hinid",
+//     "price":"999",
+//     "courseInstrutor":"HiteshC"
+// }
